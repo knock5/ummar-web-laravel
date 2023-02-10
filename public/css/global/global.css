@@ -1,0 +1,48 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+* {box-sizing: border-box}
+
+:root {
+    --primary: #F9D310;
+    --secondary: #AB8C25;
+    --warning: #F9E375;
+    --light: #FFFFFF;
+    --dark: #2E2715;
+
+    --font-family-base: "Roboto", sans-serif;
+
+    --headings-font-family: "Roboto Slab", serif;
+
+    --body-color: #7f8499;
+
+    --headings-color: var(--dark);
+
+    ---headings-font-weight: 600;
+
+    --display-font-weight: 800;
+
+    --enable-responsive-font-sizes: true;
+
+    --border-radius: 4px;
+
+    --border-radius-sm: var(--border-radius);
+
+    --border-radius-lg: var(--border-radius);
+
+    --link-decoration: none;
+
+    --enable-negative-margins: true;
+}
+
+.spek {
+    width: 100%;
+    padding: 10px;
+}
+
+.table-data {
+    border: 3px solid var(--secondary);
+    border-radius: 13px 13px 0 0;
+}

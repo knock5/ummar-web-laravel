@@ -1,0 +1,35 @@
+@import "global.css";
+
+body {
+    background-color: #b29976;
+}
+
+.nav-link {
+    color: white;
+}
+
+.active {
+    background-color: goldenrod;
+    color: black;
+    border-radius: 10px 0 0 10px;
+}
+
+.bg-home-admin {
+    background-image: url("../../images/abstract-futuristic-bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+}
+
+.container-fluid-admin {
+    height: 100vh;
+}
+
+.table-container-accusers {
+    width: 90%;
+    overflow: auto;
+}
+
+
+
+
